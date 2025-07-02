@@ -10,12 +10,12 @@
 
 ## Página: Countries
 
-![alt text](image-4.png)
+![alt text](image-2.png)
 
 ## Paginação
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 ## Filtragem
 
-![alt text](image-3.png)
+![alt text](image-4.png)
