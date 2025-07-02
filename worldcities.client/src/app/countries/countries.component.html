@@ -1,12 +1,12 @@
 <h1>Countries</h1>
 
-<p>Here's a list of countries: feel free to play with it.</p>
+<p>Aqui está uma lista de países: sinta-se à vontade para brincar com ela.</p>
 
-<p *ngIf="!countries"><em>Loading...</em></p>
+<p *ngIf="!countries"><em>Carregando...</em></p>
 
 <mat-form-field [hidden]="!countries">
   <input matInput #filter (keyup)="loadData(filter.value)"
-         placeholder="Filter by name (or part of it)...">
+         placeholder="Filtrar por nome (ou parte dele)...">
 </mat-form-field>
 
 <table mat-table [dataSource]="countries"

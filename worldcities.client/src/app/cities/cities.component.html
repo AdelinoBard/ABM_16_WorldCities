@@ -1,15 +1,15 @@
 <h1>Cities</h1>
 
-<p>Here's a list of cities: feel free to play with it.</p>
+<p>Aqui está uma lista de cidades: sinta-se à vontade para brincar com ela.</p>
 
-<p *ngIf="!cities"><em>Loading...</em></p>
+<p *ngIf="!cities"><em>Carregando...</em></p>
 
 <mat-form-field [hidden]="!cities">
   <input
     matInput
     #filter
     (keyup)="loadData(filter.value)"
-    placeholder="Filter by name (or part of it)..."
+    placeholder="Filtrar por nome (ou parte dele)..."
   />
 </mat-form-field>
 
